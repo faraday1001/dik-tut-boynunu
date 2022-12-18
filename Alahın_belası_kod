@@ -1,0 +1,8 @@
+import time
+import subprocess
+
+while True:
+    time.sleep(3)
+    subprocess.run(["terminal-notifier", "-message", "Ekrana boynunu dik tut!"])
+
+
